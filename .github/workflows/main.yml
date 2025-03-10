@@ -30,4 +30,4 @@ jobs:
         python -m pip install pytest
     - name: Test with Python unit Test
       run: |
-        python -m unittest discover -s test -p "*.py"
+        pytest tests/test.py -v
